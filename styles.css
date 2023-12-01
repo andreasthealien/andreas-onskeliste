@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    display: block;
+    background-color: lightblue;
+}
+
+#header-text-parent_div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: max-content;
+    margin: 10px auto;
+}
+
+#header-text-parent_div * {
+    font-size: 40px;
+}
+
+#header-text {
+    font-weight: 700;
+    margin: 0px 15px;
+}
+
+
+#wishlist-parent {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+#wishlist {
+    width: 350px;
+}
+
+#wishlist li {
+    margin: 10px 0px;
+}
+
+#wishlist * {
+    font-size: 20px;
+}
+
+.wishlist-img {
+    width: 200px;
+    border: solid black 1px;
+}
