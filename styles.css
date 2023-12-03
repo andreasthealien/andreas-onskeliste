@@ -4,6 +4,11 @@
     font-family: sans-serif;
 }
 
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 header {
     display: block;
     background-color: lightblue;
